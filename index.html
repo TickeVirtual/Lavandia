@@ -31,23 +31,36 @@
       <img class="boton" src="logolavandia.png" width="60%">
       <br /><br>
       <p class="info-tienda">
-        Dirección surco: Av. Caminos del inca 2313 surco
+        Dirección surco: Av. Caminos del inca 2313 Surco<br>
+        Horario de atencion:lunes a viernes de 9am a 7pm<br>
+        Whatsapp: 972812538
       </p>
     </div>
-    <br><br>
+    <br>
       <!-- Encabezado del ticket con QR alineado a la derecha -->
-      <div class="ticket-header" style="display: flex; justify-content: space-between; align-items: flex-start;">
-        <div style="text-align: left;">
-          <b>TICKET:</b> <span id="nro_boleta_id"></span><br><br>
-          <b>FECHA RECEPCIÓN:</b> <span id="fecha"></span><br><br>
-          <b>CLIENTE:</b> <span id="nombre_client"></span><br><br>
-          <b>PUNTOS:</b> <span id="puntos"></span><br><br>
-          <b>FECHA ENTREGA:</b> <span id="fecha_entrega"></span>
+      <div class="ticket">
+        <b>TICKET:</b> <br>
+        <h1 class="nro_boleta" id="nro_boleta_id"></h1>
+    
+        <div class="fecharecep">
+            <p class="fecha">
+                <b>FECHA RECEPCIÓN:</b> <br>
+                <b id="fecha"></b>
+            </p>
         </div>
-        <div id="qr-container" style="text-align: right;">
-          <canvas id="qr-code"></canvas>
+    
+        <b>CLIENTE:</b> <br>
+        <h1 class="nombre-cliente" id="nombre_client"></h1>
+    
+        <b>PUNTOS:</b> <span id="puntos">22</span>
+    
+        <div class="label">
+            <p class="fecha_entrega">
+                <b>FECHA ENTREGA:</b> <br>
+                <span id="fecha_entrega"></span>
+            </p>
         </div>
-      </div>
+    </div>
 
     <!-- Tabla de servicios -->
     <table class="table">
