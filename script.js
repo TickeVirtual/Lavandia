@@ -66,10 +66,10 @@
                                       // Calcula el subtotal para el servicio actual
                           var subtotal = row.cantidad * parseFloat(row.precio_unit);
                               newRow.innerHTML = `
-                                <td class="item" style="text-align: right;">${row.cantidad}</td>
-                                <td class="item" style="text-align: right;">${row.descripcion}</td>
-                                <td class="item" style="text-align: right;">${row.precio_unit}</td> <!-- Alinea a la derecha -->
-                                <td class="item" style="text-align: right;">${subtotal.toFixed(2)}</td> <!-- Alinea a la derecha -->
+                                  <td class="item fila-item" style="text-align: right;">${row.cantidad}</td>
+                                  <td class="item fila-item" style="text-align: right;">${row.descripcion}</td>
+                                  <td class="item fila-item" style="text-align: right;">${row.precio_unit}</td>
+                                  <td class="item fila-item" style="text-align: right;">${subtotal.toFixed(2)}</td>
                             `;
 
                             tablaBody.appendChild(newRow);
