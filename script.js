@@ -202,8 +202,8 @@
 
         sendMessageButton.disabled = true; // Deshabilitar botón mientras se envía
 
-        const url = "https://mensajero-evolution-api.ykf6ye.easypanel.host/message/sendMedia/jhonpersonalinstancia"; // Cambia NOMBRE_INSTANCIA
-        const apikey = "0B2988E6E314-4BF0-9B5C-8C4F65B6954E"; // Coloca aquí tu API key
+        const url = "https://mensajero-evolution-api.ykf6ye.easypanel.host/message/sendMedia/lavandiasanborjainstancia"; // Cambia NOMBRE_INSTANCIA
+        const apikey = "C343AC87AA49-4A0C-AF93-F2623CBBFCB8"; // Coloca aquí tu API key
         const numeroTelefono = `+51${telefono}`; // Coloca el número de teléfono del destinatario
         const longURL = window.location.href; // Obtiene la URL actual
 
@@ -315,4 +315,5 @@ function redondearPersonalizado(valor) {
 
 
                         
+
 
